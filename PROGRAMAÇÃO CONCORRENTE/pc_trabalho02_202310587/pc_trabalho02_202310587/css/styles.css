@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Estilo base para o ChoiceBox */
+.choice-box {
+    -fx-background-color: #FFFFFF; /* Cor de fundo */
+    -fx-border-color: #CCCCCC; /* Cor da borda */
+    -fx-border-width: 2px; /* Largura da borda */
+    -fx-border-radius: 5px; /* Raio da borda */
+    -fx-padding: 5px; /* Espaçamento interno */
+}
+
+/* Estilo para o ícone de seta */
+.choice-box > .arrow-button {
+    -fx-background-color: transparent; /* Tornar o fundo transparente */
+    -fx-background-insets: 0; /* Não aplicar margem interna */
+}
+
+/* Estilo para o ícone de seta quando o mouse está sobre ele */
+.choice-box > .arrow-button:hover {
+    -fx-background-color: #E0E0E0; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o texto exibido no ChoiceBox */
+.choice-box .label {
+    -fx-text-fill: #333333; /* Cor do texto */
+}
+
+/* Estilo para o menu suspenso */
+.choice-box .menu-button .arrow {
+    -fx-background-color: #CCCCCC; /* Cor da seta */
+}
+
+/* Estilo para os itens do menu suspenso */
+.choice-box .menu-item {
+    -fx-background-color: #FFFFFF; /* Cor de fundo do item */
+    -fx-text-fill: #333333; /* Cor do texto do item */
+}
+
+/* Estilo para os itens do menu suspenso quando o mouse está sobre eles */
+.choice-box .menu-item:hover {
+    -fx-background-color: #E0E0E0; /* Altera a cor de fundo ao passar o mouse */
+}
